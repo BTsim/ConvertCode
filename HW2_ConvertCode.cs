@@ -17,7 +17,13 @@ namespace ConsoleApp7
             string sex1 = Convert.ToString(sex); //"M"
 
             char place = '3';//to int
+            int place1 = Convert.ToInt32(place);//"51"
+
             char hasFingerPrints = '0';//to boolean
+            string hasFingerPrints1 = Convert.ToString(hasFingerPrints);//"0"
+            int hasFingerPrints2 = Convert.ToInt32(hasFingerPrints1);//"0"
+            bool hasFingerPrints3 = Convert.ToBoolean(hasFingerPrints2);//"False"
+
 
             //2. STRING CONVERSION           
             string hasPhotoString = "True";//to bolean
